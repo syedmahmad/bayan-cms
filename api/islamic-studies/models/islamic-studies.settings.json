@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "islamic_studies",
+  "info": {
+    "name": "IslamicStudies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "heroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttons": {
+      "type": "richtext"
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.accordion"
+    }
+  }
+}
