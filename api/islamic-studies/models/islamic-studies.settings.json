@@ -25,9 +25,6 @@
       "plugin": "upload",
       "required": false
     },
-    "description": {
-      "type": "text"
-    },
     "buttons": {
       "type": "richtext"
     },
@@ -35,6 +32,9 @@
       "type": "component",
       "repeatable": true,
       "component": "accordion.accordion"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
