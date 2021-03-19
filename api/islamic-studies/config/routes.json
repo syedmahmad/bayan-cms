@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/cms/islamic-studies",
+      "path": "/strapi/islamic-studies",
       "handler": "islamic-studies.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/cms/islamic-studies/count",
+      "path": "/strapi/islamic-studies/count",
       "handler": "islamic-studies.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/cms/islamic-studies/:id",
+      "path": "/strapi/islamic-studies/:id",
       "handler": "islamic-studies.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/cms/islamic-studies",
+      "path": "/strapi/islamic-studies",
       "handler": "islamic-studies.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/cms/islamic-studies/:id",
+      "path": "/strapi/islamic-studies/:id",
       "handler": "islamic-studies.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/cms/islamic-studies/:id",
+      "path": "/strapi/islamic-studies/:id",
       "handler": "islamic-studies.delete",
       "config": {
         "policies": []
