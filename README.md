@@ -1,3 +1,3 @@
-# Strapi application
+# bayanCms
+Bayan Headless CMS using Strapi
 
-A quick description of your strapi application
