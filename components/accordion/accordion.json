@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_accordion_accordions",
+  "info": {
+    "name": "accordion",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "text"
+    },
+    "accordions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accordions.accordions"
+    }
+  }
+}

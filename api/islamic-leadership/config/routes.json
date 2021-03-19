@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strapi/islamic-leaderships",
+      "handler": "islamic-leadership.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/islamic-leaderships/count",
+      "handler": "islamic-leadership.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/islamic-leaderships/:id",
+      "handler": "islamic-leadership.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strapi/islamic-leaderships",
+      "handler": "islamic-leadership.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strapi/islamic-leaderships/:id",
+      "handler": "islamic-leadership.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strapi/islamic-leaderships/:id",
+      "handler": "islamic-leadership.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

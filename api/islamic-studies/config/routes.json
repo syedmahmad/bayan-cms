@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strapi/islamic-studies",
+      "handler": "islamic-studies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapi/islamic-studies/count",
+      "handler": "islamic-studies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strapi/islamic-studies/:id",
+      "handler": "islamic-studies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strapi/islamic-studies",
+      "handler": "islamic-studies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strapi/islamic-studies/:id",
+      "handler": "islamic-studies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strapi/islamic-studies/:id",
+      "handler": "islamic-studies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
