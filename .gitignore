@@ -93,6 +93,8 @@ pids
 logs
 results
 node_modules
+/node_modules
+**/node_modules
 .node_history
 
 ############################
@@ -111,4 +113,7 @@ license.txt
 exports
 *.cache
 build
+# production
+/build
+**/build
 .strapi-updater.json
